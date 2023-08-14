@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "myrich"
+version = "0.1.0"
+description = "Rich package test"
+authors = ["wdpfeffer <wdpfeffer@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+rich = "^13.5.2"
+bpython = "^0.24"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
